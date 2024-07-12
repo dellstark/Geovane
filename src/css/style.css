@@ -15,7 +15,7 @@
 .ima img {
   border: 5px solid black;
   border-radius: 50%;
-  animation: flutuar 5s ease-in-out infinite;
+  animation: flutuar 2.5s ease-in-out infinite;
 }
 main {
   height: 100vh;
