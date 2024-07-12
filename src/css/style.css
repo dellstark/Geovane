@@ -15,6 +15,7 @@
 .ima img {
   border: 5px solid black;
   border-radius: 50%;
+  animation: flutuar 5s ease-in-out infinite;
 }
 main {
   height: 100vh;
@@ -28,7 +29,7 @@ main {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  animation: backgroundTransition 8s ease-in-out infinite;
+  animation: backgroundTransition 5s ease-in-out infinite;
 }
 
 h1 {
@@ -58,11 +59,13 @@ a:hover {
   background-color: rgb(93, 39, 241);
   color: white;
   font-weight: 600;
+  
 }
 
 footer img {
   border-radius: 20px;
   filter: drop-shadow(2px 2px);
+  animation: flutuar 5s ease-in-out infinite;
 }
 @keyframes backgroundTransition {
   0% {
@@ -73,6 +76,18 @@ footer img {
   }
   100% {
     background-position: 0% 90%;
+  }
+}
+
+@keyframes flutuar {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(15px);
+  }
+  100%{
+    transform: translateY(0px);
   }
 }
 
