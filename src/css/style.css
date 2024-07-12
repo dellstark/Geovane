@@ -63,6 +63,7 @@ a:hover {
 }
 
 footer img {
+  border: 1px solid white;
   border-radius: 20px;
   filter: drop-shadow(2px 2px);
   animation: flutuar 5s ease-in-out infinite;
