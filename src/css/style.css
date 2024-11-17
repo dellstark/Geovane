@@ -11,9 +11,11 @@
   align-items: center;
   text-align: center;
   padding-bottom: 1rem;
+
 }
 .ima img {
   border: 5px solid black;
+  border-color: rgb(93, 39, 241);
   border-radius: 50%;
   animation: flutuar 2.5s ease-in-out infinite;
 }
